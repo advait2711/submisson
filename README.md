@@ -1,17 +1,17 @@
-# 🧑‍🤝‍🧑 Community Platform
+#  Community Platform
 
 A full-stack web application built with **Node.js**, **Express**, and **MongoDB**.  
 This platform allows users to register, create text-based posts, and view a public feed — creating a simple and effective community hub.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 **User Authentication**: Secure registration and login using **JWT** and **bcrypt.js**
-- 📰 **Public Post Feed**: Central homepage with all user posts in reverse chronological order
-- ✍️ **Create & Delete Posts**: Authenticated users can create and delete their own posts
-- 👤 **User Profiles**: View a user's name, bio, and list of all their posts
-- 📱 **Responsive Design**: Clean and mobile-friendly interface with custom CSS
+-  **User Authentication**: Secure registration and login using **JWT** and **bcrypt.js**
+-  **Public Post Feed**: Central homepage with all user posts in reverse chronological order
+-  **Create & Delete Posts**: Authenticated users can create and delete their own posts
+-  **User Profiles**: View a user's name, bio, and list of all their posts
+-  **Responsive Design**: Clean and mobile-friendly interface with custom CSS
 
 ---
 
@@ -40,22 +40,23 @@ This platform allows users to register, create text-based posts, and view a publ
 ### 📥 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/advait2711/submisson.git
+cd submission
 
 npm install
 
+## create a .env file with the following env variables:
 # MongoDB connection string
 ATLAS=mongodb+srv://<user>:<password>@<cluster-url>/<database-name>
 
 # JWT secret key
 JWT_SECRET=your_super_secret_key_here
 
-# Port (optional)
+# Port 
 PORT=5000
 
 npm start
 
 
-Deployed on Vercel:
+Deployed on Render:
 https://submisson.onrender.com/
